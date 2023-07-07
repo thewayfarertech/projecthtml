@@ -267,13 +267,13 @@ header {
     justify-content: center;
    }  
   
-   .social-media-icons .fa{
-   padding: 20px;
-        font-size: 30px;
-        width: 50px;
-        text-align: center;
-        text-decoration: none;
-      }
+   .social-media-icons .fa {
+     padding: 20px;
+     font-size: 30px;
+     width: 50px;
+     text-align: center;
+     text-decoration: none;
+    }
   
   .social-media-icons a {
     display: inline-block;
