@@ -265,14 +265,15 @@ header {
   .social-media-icons {
     display: flex;
     justify-content: center;
-    .fa {
-        padding: 20px;
+   }  
+  
+   .social-media-icons .fa{
+   padding: 20px;
         font-size: 30px;
         width: 50px;
         text-align: center;
         text-decoration: none;
       }
-  }
   
   .social-media-icons a {
     display: inline-block;
@@ -347,9 +348,8 @@ header {
   }
 
 /* Laptop Styles (Desktop) */
-@media (min-width: 1285px) {
   /* Add desktop-specific styles here */
-  @media (min-width: 1285px) {
+  @media (min-width: 2000px) {
     .header-wrapper {
       justify-content: space-between;
       text-align: left;
@@ -360,7 +360,7 @@ header {
     }
 
     nav ul {
-      justify-content: flex-end;
+      justify-content: center;
       margin-top: 40px;
     }
 
@@ -376,4 +376,3 @@ header {
       width: calc(33.33% - 20px);
     }
   }
-}
