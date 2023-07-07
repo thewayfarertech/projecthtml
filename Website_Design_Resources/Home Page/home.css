@@ -1,5 +1,6 @@
 /* styles.css */
 
+/* Header */
 header {
     background-color: #DBFF3C;
     color: black;
@@ -33,6 +34,7 @@ header {
     margin-top: 10px;
   }
   
+  /* Language */
   .language-selector {
     flex: 0 0 auto;
     margin-left: 10px;
@@ -43,6 +45,7 @@ header {
     font-size: 14px;
   }
   
+  /* Wharite Peak Background Image */
   body {
     margin: 0;
     padding: 0;
@@ -50,6 +53,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-image:
+      width: 100%;
+      height: auto;
   } 
 
 
