@@ -161,7 +161,7 @@ header {
 }
 
   .feature img {
-    position: absolute;
+  position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -169,18 +169,6 @@ header {
   height: auto;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 85%);
   }
-
-  .rating {
-    margin-bottom: 10px;
-  }
-  .checked {
-    color: gold;
-  }
-  .rating-title {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
 
   .duration,
   .location {
@@ -205,10 +193,26 @@ header {
     margin-right: 20px;
   }
 
+  .price{
+    margin-bottom:70px;
+    line-height:20px;
+    text-align:left;
+  }
+  
+  .rating {
+    margin-bottom: 10px;
+  }
+  .checked {
+    color: gold;
+  }
+  .rating-title {
+    display: block;
+    margin-bottom: 10px;
+  }
   .feature-content h3 {
     color: #000000;
-    margin: 0;
-    padding-top: 120px;
+    margin: 10;
+    padding-top: 70px;
     text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300;
@@ -218,7 +222,7 @@ header {
 
   .view-trip {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 17px;
     justify-content: center;
     background-color: #DBFF3C;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
