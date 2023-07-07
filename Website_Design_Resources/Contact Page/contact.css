@@ -1,3 +1,5 @@
+/* styles.css */
+/* Header + Banner */
 header {
     background-color: #DBFF3C;
     color: black;
@@ -40,7 +42,7 @@ header {
     padding: 5px;
     font-size: 14px;
   }
-  
+  /* Navigation Bar */
   nav {
     background-color: #F5F5F5;
   }
@@ -62,4 +64,138 @@ header {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+  }
+
+/* Contact Form begins */
+.contact-form {
+    margin-top: 150px;
+    text-align: center;
+  }
+  
+/* 'Still not sorted?' */
+  .contact-form h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    color: black;
+    margin-bottom: 10px;
+
+  }
+
+/* 'Send a message below' */
+  .contact-form h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    color: black;
+    margin-bottom: 20px;
+  }
+
+/* 'Select Category' */
+  .contact-form select#category {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: black;
+    padding: 5px;
+    width: 500px;
+    margin-bottom: 15px;
+  }
+
+/* 'this affects select category, first and last name, email, phone number and message containers' */
+  .contact-form form {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-form .name-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .contact-form .contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .contact-form .input-container {
+    flex-basis: calc(50% - 10px); /* Adjust the margin between containers */
+  }
+  
+  .contact-form label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: light;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form select,
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form input[type="tel"],
+  .contact-form textarea {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+/* 'Message' container */
+  .contact-form textarea {
+    height: 150px;
+    width: 500px;
+    resize: vertical;
+    max-height: 200px; /* Adjust the maximum height as needed */
+    overflow-y: auto;
+  }
+
+/* 'Submit' button */
+  .contact-form button[type="submit"] {
+    background-color: #DBFF3C; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: grab;
+    border-radius: 50px;
+    margin-left: 350px;
+  }
+
+  .contact-form button[type="submit"]:hover {
+    background-color: #B3FF00;
+  }
+
+  
+/* Footer, social media icons */
+  footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+      }
+  }
+  
+  .social-media-icons a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-media-icons img {
+    width: 30px;
+    height: 30px;
   }
