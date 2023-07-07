@@ -2,7 +2,7 @@
 /* Existing styles... */
 
 /* Mobile Styles */
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   /* Adjust styles for mobile devices */
   .header-wrapper {
     flex-direction: column;
@@ -26,7 +26,7 @@
 }
 
 /* Tablet Styles */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   /* Adjust styles for tablet devices */
   .logo img {
     width: 80px;
@@ -43,7 +43,7 @@
 }
 
 /* Laptop Styles (Desktop) */
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   /* Adjust styles for laptop and desktop devices */
   .logo img {
     width: 100px;
@@ -156,6 +156,8 @@ header {
     cursor: grab;
   }
   
+
+  /* Footer + Social Media Icons */
   footer {
     background-color: white;
     padding: 20px;
